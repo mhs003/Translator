@@ -8,7 +8,6 @@
 */
 
 class Translator{
-
   private $_langs = ['az','id','ms','bs','ca','ceb','ny','cy','cs','co','da','de','yo','et','en','es','eu','fil','jv','tk','fr','fy','ga','gl','gd','ha','hr','ht','sn','ig','zu','is','it','sw','ku','lv','haw','lt','hu','mg','mt','nl','no','pl','ro','sq','sk','sl','so','st','su','fi','sv','mi','vi','tr','xh','el','be','bg','kk','ky','mk','mn','ru','sr','tg','uk','uz','ka','hy','iw','yi','ur','ar','ps','fa','sd','am','ne','mr','hi','bn','pa','gu','ta','te','kn','ml','si','th','lo','my','km','ko','ja'];
   private $_source = null;
   private $_target = null;
