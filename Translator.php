@@ -14,7 +14,6 @@ class Translator{
   private $_query = null;
   public $error = null;
 
-
   public function setSource($source){
     if(in_array($source, $this->_langs) or strtolower($source) == 'auto'){
       $this->_source = $source;
@@ -24,7 +23,6 @@ class Translator{
       $this->error = "Source language is not available";
     }
   }
-
 
   public function setTarget($target){
     if(in_array($target, $this->_langs)){
@@ -36,7 +34,6 @@ class Translator{
     }
   }
 
-
   public function setQuery($query){
     if(!empty(trim($query))){
       $this->_query = $query;
@@ -44,7 +41,6 @@ class Translator{
       $this->error = "Query not set";
     }
   }
-
 
   public function getTranslation(){
     $data = $this->getArrangedData();
